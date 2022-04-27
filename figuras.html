@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geométricas | Curso Práctico de Js</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Figuras Geométricas
+        </h1>
+        <p>Este es el primer taller del curso práctico de Js</p>
+    </header>
+
+    <section>
+        <h2>Calcula el area y el preimetro de un cuadrado</h2>
+        <form action="">
+            <label for="InputCuadrado">Escribe cuanto mide cada lado de tu cuadrado</label>
+            <input id="InputCuadrado" type="number">
+            <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perimetro</button>
+            <button type="button" onclick="calcularAreaCuadrado()">Calcular el area</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>RETO</h2>
+        <form action="">
+            <label for="">Ingresa los datos corresponiendtes al triangulo isosceles</label>
+            <input type="number" id="lado1" placeholder="Lado 1">
+            <input type="number" id="lado2" placeholder="Lado 2">
+            <input type="number" id="base" placeholder="Base">
+
+            <button type="button" onclick="calcularAltura()">calcular altura</button>
+        </form>
+    </section>
+
+
+    <script src="figuras.js"></script>
+</body>
+</html>
