@@ -21,4 +21,13 @@ Curso practico de Js
 
 - Cuarto paso: integrar JS con HTML
 
+## Taller #3: promedio, mediana y moda
+
+- Primer paso: definir las formulas
+
+- Segundo paso: implementar las formulas en JavaScript
+
+- Tercer paso: crear funciones 
+
+
 
